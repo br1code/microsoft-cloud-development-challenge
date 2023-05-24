@@ -19,7 +19,7 @@ Azure subscriptions and management groups.
     - **Resource Groups**: Logical containers for Azure resources.
       - **Resources**: Instances of Azure services like VMs, storage, or databases. 
 
-![](Assets/organizing-structure.png)
+![](../Assets/organizing-structure.png)
 
 ## Azure Regions
 
@@ -39,7 +39,7 @@ They are **phisically separate datacenters within an Azure Region**.
 - They have independent power, cooling, and networking.
 - If one zone goes down, the other continues working.
 
-![](Assets/availability-zones.png)
+![](../Assets/availability-zones.png)
 
 Example:
 
@@ -68,7 +68,7 @@ Availability zones are created using one or more datacenters. **There's a minimu
 
 This approach allows for the replication of resources across a geography to help reduce interruptions due to catastrophic events. **If a region in a pair was affected** by a natural disaster, **services would automatically failover to the other region in its region pair**.
 
-![](Assets/region-pairs.png)
+![](../Assets/region-pairs.png)
 
 Examples:
 
@@ -100,7 +100,7 @@ Notes:
 
 Resource Groups exist to help manage and organize your Azure resources. With Resource Groups you will get "logical grouping" by placing resources of similar usage, type, or location in a resource group.
 
-![](Assets/resource-group.png)
+![](../Assets/resource-group.png)
 
 **Azure Resource Manager** is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in your Azure account. You use management features like access control, locks, and tags to secure and organize your resources after deployment.
 
@@ -108,7 +108,7 @@ When a user sends a request from any of the Azure tools, APIs, or SDKs, **Resour
 
 In other words, **all capabilities that are available in the Azure portal are also available through PowerShell, the Azure CLI, REST APIs, and client SDKs.**
 
-![](Assets/consistent-management-layer.png)
+![](../Assets/consistent-management-layer.png)
 
 With Resource Manager, you can:
 
@@ -155,7 +155,7 @@ If you have multiple subscriptions, you can organize them into **invoice section
 
 Depending on your needs, you can set up multiple invoices within the same billing account by creating additional billing profiles. Each billing profile has its own monthly invoice and payment method.
 
-![](Assets/billing-structure.png)
+![](../Assets/billing-structure.png)
 
 ## Azure Management Groups
 
@@ -173,7 +173,7 @@ You can build a flexible structure of management groups and subscriptions to **o
 
 The following diagram shows an example of creating a hierarchy for governance by using management groups:
 
-![](Assets/management-groups-and-subscriptions.png)
+![](../Assets/management-groups-and-subscriptions.png)
 
 Examples:
 
